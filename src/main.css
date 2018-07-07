@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background: rgb(36, 40, 42);
+}
+
+#root {
+  width: 100%;
+  max-width: 300px;
+}
+
+.card-header {
+  color: black;
+  padding: 1em;
+  border: 1px solid grey;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+}
+
+.buttons:not(:last-of-type) {
+  border-bottom: 1px solid grey;
+}
+
+.btn {
+  padding: 1.5em 0;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.zero {
+  flex-grow: 2;
+}
+
+.btn:not(:last-of-type) {
+  border-right: 1px solid grey;
+}
+
+.btn:hover {
+  background: lightgrey;
+  color: white;
+}
+
+.modifier {
+  background: #eaeaea;
+}
