@@ -1,1 +1,1 @@
-## Calculator Implemented in Typescript
+## Calculator Implemented in TypeScript
